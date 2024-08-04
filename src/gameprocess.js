@@ -111,46 +111,46 @@
         return;
      }
 //levels
-let  image_path = "images/oneHands/IMG_"
+let  image_path = "../images/oneHands/IMG_"
 function toButtonIdHandler(button){
     menu.style.display = 'none' 
     game.style.display = 'block'
     if (gameOver === false) {
     let buttonId = button.id
     if( buttonId === 'button_1'){
-        document.querySelector('.card').removeAttribute('src',"images/hands.mixed/IMG_1.jpg");  
-        document.querySelector('.card').setAttribute('src',"images/oneHands/IMG_1.jpg");  
-        image_path = "images/oneHands/IMG_"
+        document.querySelector('.card').removeAttribute('src',"../images/hands.mixed/IMG_1.jpg");
+        document.querySelector('.card').setAttribute('src',"../images/oneHands/IMG_1.jpg");
+        image_path = "../images/oneHands/IMG_"
         cardLenth = 13
     }
     if( buttonId === 'button_2'){
-        document.querySelector('.card').removeAttribute('src',"images/oneHands/IMG_1.jpg");  
-        document.querySelector('.card').setAttribute('src',"images/twoHands/IMG_1.jpg");  
-        image_path = "images/twoHands/IMG_"
+        document.querySelector('.card').removeAttribute('src',"../images/oneHands/IMG_1.jpg");
+        document.querySelector('.card').setAttribute('src',"../images/twoHands/IMG_1.jpg");
+        image_path = "../images/twoHands/IMG_"
         cardLenth = 32
     }
     if( buttonId === 'button_3'){
-        document.querySelector('.card').removeAttribute('src',"images/twoHands/IMG_1.jpg");  
-        document.querySelector('.card').setAttribute('src',"images/twoHandsRevers/IMG_1.jpg");  
-        image_path = "images/twoHandsRevers/IMG_"
+        document.querySelector('.card').removeAttribute('src',"../images/twoHands/IMG_1.jpg");
+        document.querySelector('.card').setAttribute('src',"../images/twoHandsRevers/IMG_1.jpg");
+        image_path = "../images/twoHandsRevers/IMG_"
         cardLenth = 16
     }
     if( buttonId === 'button_4'){
-        document.querySelector('.card').removeAttribute('src',"images/twoHandsRevers/IMG_1.jpg");  
-        document.querySelector('.card').setAttribute('src',"images/hands.mixed/IMG_1.jpg");  
-        image_path = "images/hands.mixed/IMG_"
+        document.querySelector('.card').removeAttribute('src',"../images/twoHandsRevers/IMG_1.jpg");
+        document.querySelector('.card').setAttribute('src',"../images/hands.mixed/IMG_1.jpg");
+        image_path = "../images/hands.mixed/IMG_"
         cardLenth = 59
     }
     if( buttonId === 'button_5'){
-        document.querySelector('.card').removeAttribute('src',"images/hands.mixed/IMG_1.jpg");  
-        document.querySelector('.card').setAttribute('src',"images/body/IMG_1.jpg");  
-        image_path = "images/body/IMG_"
+        document.querySelector('.card').removeAttribute('src',"../images/hands.mixed/IMG_1.jpg");
+        document.querySelector('.card').setAttribute('src',"../images/body/IMG_1.jpg");
+        image_path = "../images/body/IMG_"
         cardLenth = 21
     }
     if( buttonId === 'button_6'){
-        document.querySelector('.card').removeAttribute('src',"images/body/IMG_1.jpg");  
-        document.querySelector('.card').setAttribute('src',"images/allCards/IMG_1.jpg");  
-        image_path = "images/allCards/IMG_"
+        document.querySelector('.card').removeAttribute('src',"../images/body/IMG_1.jpg");
+        document.querySelector('.card').setAttribute('src',"../images/allCards/IMG_1.jpg");
+        image_path = "../images/allCards/IMG_"
         cardLenth = 78
     }
 }
