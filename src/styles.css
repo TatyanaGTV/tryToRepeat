@@ -47,12 +47,13 @@ body{
 }
 
 .cards-deck  {
- width: 300px;
- height: 500px;
+ max-width: 350px;
+ max-height: 450px;
  position: relative;
+    margin-bottom: 20px;
 }
 .cards-deck  img {
-    width: 100%;
+    width: 300px;
     border-radius: 10px;
     position: relative;
    }
@@ -70,7 +71,7 @@ body{
    .game{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 4px;
     padding: 0 200px;
     gap: 99px;
    }
