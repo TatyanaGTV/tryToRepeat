@@ -1,0 +1,1 @@
+(()=>{document.getElementById("popup"),document.getElementById("content");let e=document.getElementsByClassName("normal"),t=document.getElementsByClassName("revers");Array.from(e),Array.from(t),document.getElementById("name"),document.getElementById("startButton"),document.getElementById("lv_menu")})();
