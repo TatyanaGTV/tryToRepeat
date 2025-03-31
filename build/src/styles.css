@@ -1,0 +1,254 @@
+body{
+    background-color: rgb(236, 216, 108);
+}
+
+.container {
+    margin: auto;
+    display: none;
+}
+.players_info{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 133px;
+    height: 45px;
+    background-color: rgb(69, 29, 216);
+    border-radius: 10px;
+    color:#ffffff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+     border: none;
+     outline: none;
+     cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(130, 104, 224);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.for_player_1{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.score{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ffffff;
+    font-size: 20px;
+}
+.for_player_2{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.cards-deck  {
+ max-width: 350px;
+ max-height: 450px;
+ position: relative;
+    margin-bottom: 20px;
+}
+.cards-deck  img {
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+   }
+   .transparent-button{
+    background-color:   transparent;
+    position: relative;
+    width: 206px;
+    height: 269px;
+    top: -401px;
+    left: 649px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+   }
+   .game{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    padding: 0 200px;
+    gap: 99px;
+   }
+   .hint_Hand{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color:  rgb(69, 29, 216);
+   }
+   .hint_Hand.left{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color:  rgb(220, 35, 35);
+   }
+   .hands{
+    width: 218px;
+   }
+   .popup {
+        width: 450px;
+        height: 363px;
+        background-color: #ffffff;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: rgb(69, 29, 216);;
+        padding: 20px;
+        border-radius: 10px;
+        position: absolute;
+        top: calc(50% - 150px);
+        left: calc(50% - 250px);
+        display: block;
+    
+   }
+   .popup p {
+    text-align: center;
+    vertical-align: middle;
+   }
+.small_button {
+    width: 76px;
+    height: 76px;
+    border-radius: 15px;
+    background-color: rgb(237, 126, 52);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+
+}
+.small_button:hover{
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.small_button img  {
+    width: 50px;
+    height: 50px;
+}
+
+.popup-container{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.small_button.hint{
+    width: 76px;
+    height: 76px;
+    border-radius: 10px;
+    background-color:  rgb(242, 194, 36);
+    margin-bottom: 5px;
+    color: #080355;
+}
+.small_button.hint:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: azure;
+}
+
+.hints{
+     position: fixed;
+     bottom: 7px;
+     right: 13px;
+     
+}
+.hint_Hand.normal{
+    display: none;
+}
+.hint_Hand.revers{
+    display: none;
+}
+.input{
+    width: 151px;
+  padding: 3px 5px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-size: 23px;
+  color: #451dd8;
+}
+.input:focus {
+    border: none;
+    outline: none;
+}
+
+.main_menu {
+    width: 100%;
+    display: block;
+}
+.button.menu-button{
+    width: 188px;
+    height: 84px;
+    margin: auto;
+}
+.buttons{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.level-menu{
+    display: none;
+}
+
+.level_menu_button{
+    width: 395px;
+    height: 110px;
+    padding: 15px;
+    background-color: rgb(71, 56, 126);
+    border-radius: 30px;
+    color:#ffffff;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;   
+     border: none;
+     outline: none;
+     cursor: pointer;
+}
+
+.level_menu_button:hover{
+    box-shadow: rgb(50, 7, 255) 0px 3px 6px, rgb(0, 0, 0) 0px 3px 6px;
+}
+.level_menu_button a{
+    width: 395px;
+    height: 110px;
+    padding: 15px;
+    background-color: rgb(71, 56, 126);
+    border-radius: 30px;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;   
+     border: none;
+     outline: none;
+     cursor: pointer;
+}
+.btn {
+    color:#451dd8;
+    cursor: pointer;
+}
+.btn:hover{
+    color:#ffffff;
+    cursor: pointer;
+}
+.btn.show{
+    color:#ffffff;
+    cursor: pointer;
+}
+.btn.show:focus-visible{
+    color:#ffffff;
+    cursor: pointer;
+}
+.btn.show:hover{
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.dropdown-item {
+    color: #ebad0e;
+    cursor: pointer;
+}
