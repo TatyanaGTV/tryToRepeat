@@ -12,6 +12,11 @@ module.exports = (env) => {
             path: path.resolve(__dirname, 'build'),
             clean: true,
         },
+        performance: {
+            hints: 'warning', // or 'error' or false to disable
+            maxAssetSize: 250000000, // in bytes
+            maxEntrypointSize: 400000,
+        },
         module: {
             rules: [
                 {
@@ -46,4 +51,5 @@ module.exports = (env) => {
         ],
 
     };
+
 }

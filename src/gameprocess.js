@@ -1,5 +1,5 @@
 
- let gameOver = false;
+let gameOver = false;
  let popup = document.getElementById('popup')
  let game = document.getElementById('content')
 
